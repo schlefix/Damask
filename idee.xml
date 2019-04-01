@@ -1,4 +1,5 @@
 <!--
+TODO:
 Sammlung von Ideen, wie eine GUI in XML beschrieben werden könnte
 
  * 1:1 Durchreiche der, von Glium/Glutin bereitgestellten Einstellungsmöglichkeiten
@@ -6,9 +7,11 @@ Sammlung von Ideen, wie eine GUI in XML beschrieben werden könnte
 
  x dimensions entfernen... nur (min_/max_/ )width/height
 
- * includes
- * defines
+ * includes ... vorallem für das "css"
+ * defines ?!
  * basics wie rectangle/circle... um eigene tags zu definieren?!
+ * bildwiederholung verbessern/framebuffer optimieren
+
  -->
 
 
