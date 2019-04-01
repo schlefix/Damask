@@ -1,0 +1,19 @@
+[package]
+name = "Damask"
+version = "0.1.0"
+authors = ["schlefix"]
+edition = "2018"
+
+[dependencies]
+glium = "*"
+glutin = { features = ["serde"] , version="*" }
+log = "*"
+pretty_env_logger = "*"
+xml-rs = "0.8.0"
+serde = "1.0.89"
+serde_json = "1.0.39"
+serde_derive ="1.0.89"
+tokio = "0.1.18"
+futures = "0.1.25"
+winit = "0.19.0"
+image = "0.21.0"

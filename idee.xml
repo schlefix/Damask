@@ -1,0 +1,56 @@
+<!--
+Sammlung von Ideen, wie eine GUI in XML beschrieben werden könnte
+
+ * 1:1 Durchreiche der, von Glium/Glutin bereitgestellten Einstellungsmöglichkeiten
+ * CSS like File um nicht immer die entsprechenden Attribute schreiben zu müssen
+
+ x dimensions entfernen... nur (min_/max_/ )width/height
+
+ * includes
+ * defines
+ * basics wie rectangle/circle... um eigene tags zu definieren?!
+ -->
+
+
+<application>
+    <window
+            width="800"
+            height="600"
+
+            min_width="800"
+            min_height="600"
+
+            max_width="1920"
+            max_height="1080"
+
+            resizeable="true"
+            fullscreen="false"
+            title="Damask App"
+            maximized="false"
+            visible="true"
+            transparent="false"
+            decorations="true"
+            always_on_top="false"
+            window_icon="/path/to/icon"
+    />
+    <window
+            width="800"
+            height="600"
+
+            min_width="800"
+            min_height="600"
+
+            max_width="1920"
+            max_height="1080"
+
+            resizeable="true"
+            fullscreen="false"
+            title="Damask App 2"
+            maximized="false"
+            visible="true"
+            transparent="false"
+            decorations="true"
+            always_on_top="false"
+            window_icon="/path/to/icon"
+    />
+</application>
